@@ -39,7 +39,7 @@ wsl_env/
 *.rar
 *.7z
 
-# ─── Large ML Models, Weights, Embeddings & Checkpoints (>50MB) ────────────────
+# ─── Large ML Models, Weights, Embeddings & Large Datasets (>50MB) ─────────────
 *.keras
 *.h5
 *.pb
@@ -53,6 +53,10 @@ wsl_env/
 *.npy
 **/checkpoint-*/
 **/saved_models/
+**/models/
+glove*.txt
+fer2013.csv
+IMDB*.csv
 
 # ─── Node / PHP / Package Managers ─────────────────────────────────────────────
 **/node_modules/

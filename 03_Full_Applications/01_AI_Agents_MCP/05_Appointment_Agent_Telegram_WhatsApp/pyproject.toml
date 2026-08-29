@@ -1,0 +1,20 @@
+[project]
+name = "u05"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "flask>=3.1.2",
+    "google-api-python-client>=2.187.0",
+    "google-auth>=2.45.0",
+    "google-auth-oauthlib>=1.2.2",
+    "mcp[cli]>=1.25.0",
+    "ollama>=0.6.1",
+    "psycopg2-binary>=2.9.11",
+    "pyngrok>=7.5.0",
+    "python-dotenv>=1.2.1",
+    "python-telegram-bot>=22.5",
+    "pytz>=2025.2",
+    "twilio>=9.9.1",
+]
