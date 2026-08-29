@@ -1,0 +1,63 @@
+# ─── Python Virtual Environments & WSL Envs ────────────────────────────────────
+.venv/
+venv/
+env/
+.env/
+wsl_env/
+*_env/
+*env/
+*env*/
+**/.venv/
+**/venv/
+**/env/
+**/.env/
+**/wsl_env/
+**/*_env/
+**/*env/
+
+# ─── Python Cache ───────────────────────────────────────────────────────────────
+**/__pycache__/
+*.py[cod]
+*.pyo
+
+# ─── Jupyter Checkpoints ────────────────────────────────────────────────────────
+**/.ipynb_checkpoints/
+
+# ─── Compiled / Binary Libraries ───────────────────────────────────────────────
+*.dll
+*.pyd
+*.lib
+*.so
+*.dylib
+*.exe
+
+# ─── SQL Dumps & Archives ──────────────────────────────────────────────────────
+*.sql
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# ─── Large ML Models, Weights, Embeddings & Checkpoints (>50MB) ────────────────
+*.keras
+*.h5
+*.pb
+*.onnx
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.vec
+*.model
+*.npy
+**/checkpoint-*/
+**/saved_models/
+
+# ─── Node / PHP / Package Managers ─────────────────────────────────────────────
+**/node_modules/
+**/vendor/
+
+# ─── OS Files ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
